@@ -242,7 +242,7 @@ h2 {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 72px;
+  height: 84px;
 }
 
 .brand {
@@ -254,7 +254,7 @@ h2 {
 }
 
 .brand img {
-  height: 30px;
+  height: 46px;
   width: auto;
 }
 
@@ -691,7 +691,7 @@ h2 {
    404 page
    ========================================================================== */
 .not-found {
-  min-height: calc(100vh - 72px);
+  min-height: calc(100vh - 84px);
   display: flex;
   align-items: center;
 }
