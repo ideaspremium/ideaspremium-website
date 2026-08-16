@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://ideaspremium.com/sitemap.xml
