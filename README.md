@@ -19,6 +19,8 @@ Plain HTML5, CSS3, and a few lines of vanilla JavaScript.
 ```
 /
 ├── index.html            Homepage (single page, all sections)
+├── privacy-policy.html    Privacy Policy — English then Spanish, same page
+├── terms-of-use.html       Terms of Use — English then Spanish, same page
 ├── 404.html               Custom "page not found" page
 ├── robots.txt
 ├── sitemap.xml
@@ -30,7 +32,8 @@ Plain HTML5, CSS3, and a few lines of vanilla JavaScript.
 ├── assets/
 │   ├── logo/
 │   │   └── IPSLogo.png       Official company logo (from project files)
-│   └── images/                Empty — reserved for future use
+│   └── images/
+│       └── clients/            10 client/partner logos used in "Our Clients"
 ├── .htaccess                Optional Apache config (HTTPS/www redirect, security headers)
 └── README.md                 This file
 ```
@@ -117,11 +120,6 @@ None of these are required — any conventional web server works.
 
 ## 7. Missing information / items to review before production
 
-- **Corporate contact email**: No verified `@ideaspremium.com` contact
-  address was found in the project files, so none was published on the
-  site. The Contact section currently only links to the two product sites.
-  Add a verified address to the Contact section in `index.html` once
-  available (search for the HTML comment `No verified corporate email...`).
 - **Favicon**: `favicon.svg` is a placeholder typographic "IP" mark, not the
   official brand mark. Replace it with an official favicon asset if one is
   produced later.
@@ -135,6 +133,11 @@ None of these are required — any conventional web server works.
 - **Analytics/cookies**: none are included. If analytics are added later,
   review cookie-consent requirements at that time (GDPR/ePrivacy, CCPA,
   etc. depending on target audience).
+- **Legal pages effective date**: `privacy-policy.html` and
+  `terms-of-use.html` were transcribed from the approved Word document
+  ("Politicas-IdeasPremium-EN-ES.docx"), which lists an effective date of
+  April 01, 2026 inside the policy text. Update that date manually in both
+  HTML files if the policies are revised.
 
 ## 8. Content restrictions honored
 
